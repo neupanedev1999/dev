@@ -1,12 +1,13 @@
-import Theme from "../styles/theme";
-// import Head from "next/document";
-
+import Theme from '../styles/theme'
 export default function App({ Component, pageProps }) {
-	return (
-		<>
-			<Theme>
-				<Component {...pageProps} />
-			</Theme>
-		</>
-	);
+  return (
+    <>
+      <title>
+        Devraj Neupane| Tech Enthusiast | Information Security Researcher
+      </title>
+      <Theme>
+        <Component {...pageProps} />
+      </Theme>
+    </>
+  )
 }

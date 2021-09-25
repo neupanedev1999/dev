@@ -30,9 +30,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en-GB">
         <Head>
-          <title>
-            Devraj Neupane| Tech Enthusiast | Information Security Researcher
-          </title>
           <meta
             property="og:title"
             content="Devraj Neupane| Tech Enthusiast | Information Security Researcher"
