@@ -14,10 +14,11 @@ const Home = () => {
 				<Hero />
 				<BgAnimation />
 			</Section>
-			<Projects />
-			<Technologies />
 			<Timeline />
+			<Technologies />
 			<Acomplishments />
+			{/* Change Projects Section Accordingly, and add data as required from /src/constants/constants.js */}
+			{/* <Projects /> */}
 		</Layout>
 	);
 };

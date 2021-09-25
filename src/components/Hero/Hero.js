@@ -12,12 +12,11 @@ const Hero = (props) => (
 	<Section row nopadding>
 		<LeftSection>
 			<SectionTitle main center>
-				Welcome To <br />
-				Hari Bahadur's Portfolio
+				Hi, Welcome to <br />
+				Dev Neupane's Portfolio
 			</SectionTitle>
 			<SectionText>
-				Ram Bahadur is an aspiring web developer from Nepal, He loves coding as
-				much as he loves eating momos and drinking coca-cola.
+				I am an aspiring Security Researcher and undergrad currently studying ??? at ??? School, with main focus on Information Security.
 			</SectionText>
 			<Button onClick={() => (window.location = "#about")}>Know More</Button>
 		</LeftSection>

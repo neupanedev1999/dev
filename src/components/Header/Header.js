@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMediumCircle, AiFillTwitterCircle } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -25,36 +25,39 @@ const Header = () => (
 						marginBottom: "20px",
 					}}>
 					<DiCssdeck size='3rem' />
-					<Span>Portfolio</Span>
+					<Span>Dev Neupane :)</Span>
 				</a>
 			</Link>
 		</Div1>
 		<Div2>
 			<li>
 				<Link href='#projects'>
-					<NavLink>Projects</NavLink>
+					<NavLink>About</NavLink>
 				</Link>
 			</li>
 			<li>
 				<Link href='#tech'>
-					<NavLink>Technologies</NavLink>
+					<NavLink>Experties</NavLink>
 				</Link>
 			</li>
 			<li>
 				<Link href='#about'>
-					<NavLink>About</NavLink>
+					<NavLink>Showcase</NavLink>
 				</Link>
 			</li>
 		</Div2>
 		<Div3>
-			<SocialIcons href='https://github.com/ashokcpg'>
+			<SocialIcons href='https://github.com/#' target='_blank'>
 				<AiFillGithub size='3rem' />
 			</SocialIcons>
-			<SocialIcons href='https://linkedin.com/in/ashokcpg'>
+			<SocialIcons href='https://medium.com/#' target='_blank'>
+				<AiFillMediumCircle size='3rem' />
+			</SocialIcons>
+			<SocialIcons href='https://linkedin.com/in/#' target='_blank'>
 				<AiFillLinkedin size='3rem' />
 			</SocialIcons>
-			<SocialIcons href='https://instagram.com/ashokcpg'>
-				<AiFillInstagram size='3rem' />
+			<SocialIcons href='https://twitter.com/#' target='_blank'>
+				<AiFillTwitterCircle size='3rem' />
 			</SocialIcons>
 		</Div3>
 	</Container>
