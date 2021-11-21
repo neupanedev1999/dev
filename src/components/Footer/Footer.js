@@ -5,6 +5,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterCircle,
 } from 'react-icons/ai'
+import { FooterContent } from '../../constants/constants'
 
 import { SocialIcons } from '../Header/HeaderStyles'
 import {
@@ -25,16 +26,20 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:123-456-7890">+123-456-7890</LinkItem>
+          <LinkItem href={`tel:` + FooterContent.phoneNumber}>
+            {FooterContent.phoneNumber}
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:email@email.com">email@email.com</LinkItem>
+          <LinkItem href={`mailto:` + FooterContent.emailAddress}>
+            {FooterContent.emailAddress}
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Learning new things day by day..</Slogan>
+          <Slogan>{FooterContent.footerText}</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Neupanedev1999" target="_blank">
