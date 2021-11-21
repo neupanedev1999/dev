@@ -18,3 +18,8 @@ export const TimeLineData = [
 	{ year: 2020, text: "Got into Cyber Security" },
 	{ year: 2021, text: "Exploring Things" },
 ];
+
+export const Resume =
+  'https://github.com/neupanedev1999/portfolio-website/blob/master/public/resume.docx?raw=true'
+
+export const AboutMeText = 'This section contains information about DevRaj Neupane, This text can be modified by changing the text in constants.js file, '

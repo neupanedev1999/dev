@@ -23,7 +23,11 @@ export const Section = styled.section`
     flex-direction: column;
   }
 `
-
+export const ButtonContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+`;
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
