@@ -25,7 +25,7 @@ export const Resume =
 export const AboutMeText = 'This section contains information about DevRaj Neupane, This text can be modified by changing the text in constants.js file, '
 
 export const FooterContent = {
-	"emailAddress":"randomemail@abc.com",
-	"phoneNumber":"+123-456-7890",
+	"emailAddress":"neupanedev2055@gmail.com",
+	"phoneNumber":"+44 07459938978",
 	"footerText":"This is the footer text. Please change the information from constants.js file"
 } 
