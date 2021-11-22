@@ -22,7 +22,11 @@ export const TimeLineData = [
 export const Resume =
   'https://github.com/neupanedev1999/portfolio-website/blob/master/public/resume.docx?raw=true'
 
-export const AboutMeText = 'This section contains information about DevRaj Neupane, This text can be modified by changing the text in constants.js file, '
+export const AboutMeText = 'Enthusiastic IT student eager to contribute to success through hard work, attention to detail, 
+and excellent organizational skills. A clear understanding of computers, networks, and their 
+security. motivated to learn, grow, and excel in the field of computer programming and cyber 
+security
+, '
 
 export const FooterContent = {
 	"emailAddress":"neupanedev2055@gmail.com",
