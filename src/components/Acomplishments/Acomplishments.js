@@ -13,6 +13,8 @@ const data = [
   { number: 3, text: 'Achievement 3' },
   { number: 4, text: 'Achievement 4' },
 ]
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8718363685404871"
+     crossorigin="anonymous"></script>
 
 const Acomplishments = () => (
   <Section id="showcase">
