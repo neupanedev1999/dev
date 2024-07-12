@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Neupane - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header section -->
+    <header id="header">
+        <div class="container">
+            <h1>Dev Neupane</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Work Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>London, UK | 07459938978 | Neupanedev2055@gmail.com<br>
+                <a href="https://www.linkedin.com/in/neupanedev" target="_blank">LinkedIn</a></p>
+            <p>Ulster University BSc graduate in Computing Systems, aspiring to kickstart a career in Information Security and IT. Eager for hands-on experience, I've actively pursued extra certifications and training during my academic journey.</p>
+        </div>
+    </section>
+
+    <!-- Education section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <h3>2019 – 2023</h3>
+            <p><strong>BSc (HONS) Computing Systems with Adv. Diploma in Professional Practice</strong>, Ulster University, London</p>
+            <ul>
+                <li>Achieved a 2:1 Upper Second degree with focus on Software Development, System Security, Web Development, Data Analytics, Database System and Artificial Intelligence.</li>
+                <li>Experienced with Python, R, Laravel, and JavaScript for university project development.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Face Recognition Attendance System</h3>
+                <p>Developed a face recognition attendance system using Python and OpenCV to automate attendance tracking, improving efficiency and accuracy. Utilized Python, OpenCV, and machine learning techniques for face detection and recognition.</p>
+            </div>
+
+            <div class="project">
+                <h3>Module Repository Tool using Laravel 9</h3>
+                <p>Developed a web app for academic module management using Laravel 9 and Breeze. Led design and implementation of CRUD operations with user registration. Utilized 'php artisan' commands for efficient project management.</p>
+            </div>
+
+            <div class="project">
+                <h3>Data Analysis and Modeling Using R</h3>
+                <p>Performed EDA, data visualization, and clustering and analysis using R for a given dataset.</p>
+            </div>
+
+            <div class="project">
+                <h3>Cloud Native Social Media Platform</h3>
+                <p>Designed and developed a cloud-native social media sharing platform using Azure and WordPress. Features: User registration, content uploads, following, stream views, and comments.</p>
+            </div>
+
+            <div class="project">
+                <h3>Secure Peer-to-Peer Communication System (Python)</h3>
+                <p>Developed two Python components for secure peer-to-peer file-based communication. Established file-based channel, negotiated cryptographic keys, and used AES for encryption. Demonstrated proficiency in Python and Cryptography.</p>
+            </div>
+
+            <div class="project">
+                <h3>Machine Learning</h3>
+                <p>Applied two ML algorithms to solve a classification problem with comprehensive analysis. Illustrated reinforcement learning through Markov Decision Processes in a lab exercise, emphasizing its value in employability. Demonstrated expertise in algorithms and data analysis.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Network Security Tools: Proficient in Nmap, Nessus, Hydra, Netcat, Wireshark, and the Metasploit framework for network security.</li>
+                <li>Web App Security Tools: Experienced in Burp Suite, Nikto, SQLmap, FFUF, Amass, Httpx, Nuclei, and Wpscan for web application security.</li>
+                <li>Intelligence Gathering Tools: Skilled in Maltego, Rengine, Shodan, and Google dorks for intelligence gathering.</li>
+                <li>Programming Language: Proficient in Python</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Work Experience section -->
+    <section id="work" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+
+            <div class="job">
+                <h3>Customer Team Leader</h3>
+                <p>CO-OP foods, North Greenwich, London<br>
+                <strong>2022 – Present</strong></p>
+                <ul>
+                    <li>Assign work to team members and monitor progress.</li>
+                    <li>Regular team leader tasks like picking list, gap scanning, MyWorks tasks.</li>
+                    <li>Leakage app investigation.</li>
+                    <li>Logging in incidents and crime reports on MySafety apps like shoplifting and abuse.</li>
+                    <li>Managing deliveries, customer service, and stock counts.</li>
+                    <li>Managing cigarettes and vapes deliveries and counting.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>References available on request</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2024 Dev Neupane. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
