@@ -1,32 +1,14 @@
-import React from "react";
-import { Resume } from "../../constants/constants";
-import {
-	ButtonContainer,
-	Section,
-	SectionText,
-	SectionTitle,
-} from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+// src/components/Hero/Hero.js
 
-const Hero = props => (
-  <Section row nopadding>
-    <LeftSection>
-      <SectionTitle main center>
-        Hi, Welcome to <br />
-        Dev Neupane's Portfolio
-      </SectionTitle>
-      <SectionText>
-        I am an aspiring Security Researcher and undergrad currently studying
-        ??? at ??? School, with main focus on Information Security.
-      </SectionText>
-	  <ButtonContainer>
+import React from 'react';
 
-      <Button onClick={() => (window.location = '#about')}>Know More</Button>
-      <Button onClick={() => (window.location = `${Resume}`)}>Download Resume</Button>
-	  </ButtonContainer>
-    </LeftSection>
-  </Section>
-)
+const Hero = () => (
+  <section id="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Ulster University BSc graduate in Computing Systems, aspiring to kickstart a career in Information Security and IT. Eager for hands-on experience, I've actively pursued extra certifications and training during my academic journey.</p>
+    <a href="/path/to/resume.pdf" download>Download Resume</a>
+  </section>
+);
 
 export default Hero;
+
