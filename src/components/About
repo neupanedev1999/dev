@@ -1,0 +1,12 @@
+// src/components/About/About.js
+
+import React from 'react';
+
+const About = () => (
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Ulster University BSc graduate in Computing Systems, aspiring to kickstart a career in Information Security and IT. Eager for hands-on experience, I've actively pursued extra certifications and training during my academic journey.</p>
+  </section>
+);
+
+export default About;
